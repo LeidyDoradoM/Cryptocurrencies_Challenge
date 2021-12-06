@@ -1,1 +1,1 @@
-# Cryptocurrencies_Challenge
+# Cryptocurrencies Project
