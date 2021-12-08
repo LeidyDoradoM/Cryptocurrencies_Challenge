@@ -1,18 +1,26 @@
 # Cryptocurrencies Project
 
-A prominent investment bank is interested in offering a cryptocurrency investment portfolio for its customers.  In this project, we present cryptocurrencies that are on the trading market and a classification of them.
+A prominent investment bank is interested in offering a cryptocurrency investment portfolio for its customers.  In this project, we explore available data to get information about the cryptocurrencies that are on the trading market and how they can be classified.
 
-
-Martha is a senior manager for the Advisory Services Team at Accountability Accounting, one of your most important clients. Accountability Accounting, a prominent investment bank, is interested in offering a new cryptocurrency investment portfolio for its customers. The company, however, is lost in the vast universe of cryptocurrencies. So, they’ve asked you to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.
-
-The data Martha will be working with is not ideal, so it will need to be processed to fit the machine learning models. Since there is no known output for what Martha is looking for, she has decided to use unsupervised learning. To group the cryptocurrencies, Martha decided on a clustering algorithm. She’ll use data visualizations to share her findings with the board.
+The data used in this project could be find [here](Resources/crypto_data.csv). Since the data does not have a known output about categorization of cryptocurrencies, we will use unsupervised learning algorithm: `K-means`, and a pre-processing transformation: `Principal Component Analysis (PCA)`.
 
 ## Preprocessing the Data for PCA
 
+Before 
+![data](Images/crypto_df.png)
+
 ## Reducing Data Dimensions Using PCA
+
+![pca](Images/pcs_df.png)
 
 ## Clustering Cryptocurrencies Using K-means 
 
+![clustering](Images/clustered_wClasses.png)
+
 ## Visualizing Cryptocurrencies Results
 
+
+![hvplotT](Images/hvplotTable.png)
+
+![hvplot](Images/hvScatterPlot.png)
 ## Summary
