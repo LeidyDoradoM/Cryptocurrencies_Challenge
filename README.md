@@ -13,10 +13,14 @@ Figure 1. Cryptocurrences DataFrame
 
 ## Reducing Data Dimensions Using PCA
 
+The dimensions of the pre-processed dataframe is then reduced using the PCA algorithm. The new DataFrame with dimensions reducre to three PCs: `PC 1`, `PC 2` and `PC 3` is shown in Figure 2.
+
 ![pca](Images/pcs_df.png)
 Figure 2. Principal Components of Cryptocurrences DataFrame
 
 ## Clustering Cryptocurrencies Using K-means 
+
+Using your knowledge of the K-means algorithm, you’ll create an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame created in Deliverable 2. Then, you’ll run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
 
 ![clustering](Images/clustered_wClasses.png)
 Figure 3. Classification of Cryptocurrences DataFrame using the K-means Algorithm
