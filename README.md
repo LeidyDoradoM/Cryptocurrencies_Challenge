@@ -24,12 +24,12 @@ Figure 2. Principal Components of Cryptocurrencies DataFrame
 After the dimensionality reduction, we find an appropriate value for K (number of clusters) by using an **Elbow Curve**. Figure 3 shows this curve with the chosen K highlighted in red.
 
 ![elbow](Images/elbowCurve.png)
-Figure 3. Classification of Cryptocurrencies DataFrame using the K-means Algorithm
+Figure 3. Elbow Curve showing the chosen **k** parameter
 
 With  `K = 4`, the K-means algorithm is run to predict the four clusters for the cryptocurrencies.
 
 ![clustering](Images/clustered_wClasses.png)
-Figure 3. Classification of Cryptocurrencies DataFrame using the K-means Algorithm
+Figure 4. Classification of Cryptocurrencies DataFrame using the K-means Algorithm
 
 ## Visualizing Cryptocurrencies Results
 
@@ -37,13 +37,13 @@ Clustering results are shown in two ways: As scatterplots showing distributions 
 Figure 5 shows a table with all the currently tradable cryptocurrencies and Figure 6 the corresponding scatterplot.
 
 ![3dplot](Images/3dScatterPlot.png)
-Figure 4. 3D Scatter Plot of Cryptocurrencis Classes in the PCA dimension
+Figure 5. 3D Scatter Plot of Cryptocurrencis Classes in the PCA dimension
 
 ![hvplotT](Images/hvplotTable.png)
-Figure 5. Table showing the Cryptocurrencis and their classification in four clusters
+Figure 6. Table showing the Cryptocurrencis and their classification in four clusters
 
 ![hvplot](Images/hvScatterPlot.png)
-Figure 6. 2D Scatter Plot showing distribution of Cryptocurrencis by Classes
+Figure 7. 2D Scatter Plot showing distribution of Cryptocurrencis by Classes
 
 ## Summary
 
