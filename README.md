@@ -16,6 +16,7 @@ Figure 1. Cryptocurrencies DataFrame
 The dimensions of the pre-processed dataframe is then reduced using the PCA algorithm. The new DataFrame with dimensions reducre to three PCs: `PC 1`, `PC 2` and `PC 3` is shown in Figure 2.
 
 ![pca](Images/pcs_df.png)
+
 Figure 2. Principal Components of Cryptocurrencies DataFrame
 
 ## Clustering Cryptocurrencies Using K-means 
@@ -46,3 +47,4 @@ Figure 6. 2D Scatter Plot showing distribution of Cryptocurrencis by Classes
 
 ## Summary
 
+Cryptocurrency trademarking is explored in this project. An initial classification is intended by using K-means algorithm.  Before to apply the clustering algorithm, a cleaning of the data as well as a dimensionality reduction are performed. 
