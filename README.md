@@ -47,4 +47,4 @@ Figure 7. 2D Scatter Plot showing distribution of Cryptocurrencis by Classes
 
 ## Summary
 
-Cryptocurrency trademarking is explored in this project. An initial classification is intended by using K-means algorithm.  Before to apply the clustering algorithm, a cleaning of the data as well as a dimensionality reduction are performed. The final results shows that there are 532 cryptocurrencies in the trade market that can be categorized in 4 classes.
+Cryptocurrency trademarking is explored in this project. An initial classification is intended by using K-means algorithm.  Before applying the clustering algorithm, cleaning of the data as well as dimensionality reduction are performed. The final results shows that there are 532 cryptocurrencies in the trade market that can be categorized in 4 classes.
